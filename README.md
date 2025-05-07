@@ -19,43 +19,74 @@ LINK TO VIDEO EXPLANATION:
 
 https://drive.google.com/file/d/1HCL2ag48No7WzYbRwpLvfUHXewyRRs31/view?usp=drive_link
 
-TECHNOLOGIES USED :
-Technology	      Purpose
-HTML       	      Structuring Web Pages
-CSS	              Styling Web Pages
-JavaScript	      Frontend Interactivity
-Flask (Python)   	Backend Server Framework
-JSON	            Data Exchange Format
+## 🛠️ Technologies Used
 
-System Requirements:-
-• Python 3.8+
-• Flask (pip install flask flask-cors)
-• Web Browser (Chrome, Firefox, MS Edge)
-• Text Editor (Visual Studio Code or similar)
+| Technology      | Purpose                             |
+|----------------|-------------------------------------|
+| **HTML**        | Structuring Web Pages               |
+| **CSS**         | Styling Web Pages                   |
+| **JavaScript**  | Frontend Interactivity              |
+| **Flask (Python)** | Backend Server Framework          |
+| **JSON**        | Data Exchange Format                |
 
-System Components:-
-Frontend
-• HTML (index.html, doctors.html, appointment.html)
- o Defines the layout of core pages like the homepage, doctor listings, appointment booking, login/registration forms, and contact page.
- o Incorporates sections for user input, profiles, and navigation.
-• CSS (style.css)
- o Applies consistent and responsive styling across pages.
- o Designs form layouts, buttons, doctor cards, contact forms, and adaptive mobile views.
-• JavaScript (script.js)
- o Handles UI interactivity and dynamic content rendering:
-   Show/hide modals for login and appointment forms.
-   Populate doctor listings and appointment slots dynamically.
-   Validate form inputs and manage user interaction effects.
-   Implement mobile navigation and smooth scrolling.
-________________________________________
-Backend
-• Python Flask Application (app.py)
- o Serves static files including HTML, CSS, and JS.
- o Provides REST API endpoints to:
-   Fetch available doctors and schedules.
-   Create and store appointment requests.
-   Handle user login/registration (dummy implementation).
-   Receive and store contact form queries.
- o Uses in-memory data structures (Python lists) to simulate a backend database.
+---
+
+## 💻 System Requirements
+
+- Python **3.8+**
+- Flask: `pip install flask flask-cors`
+- Modern Web Browser (Chrome, Firefox, MS Edge)
+- Text Editor (e.g., Visual Studio Code)
+
+---
+
+## 🧩 System Components
+
+### 🔸 Frontend
+
+- **HTML**
+  - Files: `index.html`, `doctors.html`, `appointment.html`
+  - Defines the layout for:
+    - Homepage
+    - Doctor listings
+    - Appointment booking
+    - Login/registration forms
+    - Contact page
+  - Incorporates sections for:
+    - User input
+    - Doctor profiles
+    - Navigation
+
+- **CSS (`style.css`)**
+  - Applies consistent and responsive styling across all pages
+  - Designs for:
+    - Form layouts
+    - Buttons and CTAs
+    - Doctor cards and contact forms
+    - Adaptive mobile views
+
+- **JavaScript (`script.js`)**
+  - Handles UI interactivity and dynamic content rendering:
+    - Show/hide modals (login, appointments)
+    - Populate doctor listings and appointment slots
+    - Form validation and input handling
+    - Mobile navigation and smooth scrolling
+
+---
+
+### 🔹 Backend
+
+- **Python Flask Application (`app.py`)**
+  - Serves static files (HTML, CSS, JS)
+  - Provides REST API endpoints to:
+    - Fetch available doctors and schedules
+    - Create/store appointment requests
+    - Handle dummy user login/registration
+    - Receive and store contact form queries
+  - Uses **in-memory Python lists** to simulate a backend database
+
+---
+
+
 
  
